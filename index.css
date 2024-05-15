@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;      
+}
+
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 60px;
+    display: block;
+    text-align: center;
+
+}
+
+.nav{
+    padding: 20px 60px;
+    background-color: whitesmoke;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.header span{
+
+    font-size: 40px;
+    display: flex;
+    align-self: center;
+    
+}
+
+.main a{
+    text-decoration: none;
+    color: gray;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.main ul{
+    display: table;
+
+}
+
+.main ul img{
+    margin-left: 0;
+}
+
+.main li{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.main table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main td, th {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px 20px;
+  }
+
+.main tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+
+.main {
+    
+    padding: 20px 60px;
+    background-color: white;
+    margin-bottom: 60px;
+    
+}
+
+.main p{
+    font-size: 20px;
+    
+}
+
+.main img{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 3px solid Gray;
+
+}
+
+
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
